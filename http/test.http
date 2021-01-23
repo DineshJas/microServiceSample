@@ -1,0 +1,14 @@
+# GET http://reduxblog.herokuapp.com/api/posts HTTP/1.1
+# Accept: application/json
+
+# POST http://reduxblog.herokuapp.com/api/posts HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "title": "Hi!",
+#     "categories": "Computer, Friends",
+#     "content": "Blog post content"
+# }
+
+# GET http://reduxblog.herokuapp.com/api/posts/316468 HTTP/1.1
+# Accept: application/json

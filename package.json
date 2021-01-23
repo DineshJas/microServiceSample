@@ -1,0 +1,24 @@
+{
+  "name": "microServices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serviceOne": "cd serviceOne && nodemon index.js",
+    "serviceTwo": "cd serviceTwo && nodemon index.js",
+    "start": "concurrently -kill-others \"npm run serviceOne\" \"npm run serviceTwo\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.6",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
